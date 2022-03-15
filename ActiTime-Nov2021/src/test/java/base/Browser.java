@@ -24,5 +24,11 @@ public class Browser {
 		WebDriver driver = new OperaDriver();
 		return driver;
 	}
+	
+	public static WebDriver launchIEBrowser() {
+		System.setProperty("webdriver.opera.driver", "operadriver.exe");
+		WebDriver driver = new OperaDriver();
+		return driver;
+	}
 
 }
