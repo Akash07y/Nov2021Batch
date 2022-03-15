@@ -23,6 +23,9 @@ public class LoginPage {
 	@FindBy (xpath = "//a[@id='loginButton']") 
 	private WebElement login ;
 	
+	@FindBy (xpath = "//a[@id='loginButton']") 
+	private WebElement loginButton ;
+	
 	private WebDriver driver ;
 	private WebDriverWait wait ;
 	private Actions actions;
